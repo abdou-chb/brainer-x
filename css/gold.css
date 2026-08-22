@@ -1,0 +1,142 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+.goldpapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 30fr;
+    nav{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1/7;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#4A0710 ;
+        color: #F3D98B;
+        .logo{
+           gap: 0.5rem;
+            width: 270px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 200px;
+            }   
+        }
+        .list{
+            width: 40rem;;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;     
+            ul{
+             display: flex;
+            flex-direction: row;
+            justify-content: center; 
+            align-items: center;
+            gap: 2rem;
+            li{
+                list-style: none;
+            }
+            }   
+        }
+        .boto{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 5rem;
+            
+            button{
+                background-color: #D4AF37;
+                color: #4A0710;
+                padding: 0.2rem;
+                border-radius: 5%;
+                width: 4rem;
+                a{
+                    text-decoration: none;
+                    color:#4A0710;
+                   
+                }    
+               
+            }
+        }
+
+
+    }
+    .leftNav{
+        background-color: beige;
+        color: #4A0710;
+             hr{
+                width:90%;
+                margin-left: 0.5rem;
+                color: #4A0710;
+                margin-top: 1rem;
+                
+            }
+        .titels{
+            margin: 1rem;
+        }
+        .listbar{
+            display: flex;
+            flex-direction: column;
+            ul{
+                 display: flex;
+                 flex-direction: column;
+                 
+                 
+           
+                li{
+                    
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+                     .ili{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-content: center;
+                        
+                i{
+                    margin-left: 1rem;
+                    padding: 0.5rem;
+                   
+                }
+                p{
+                    width: 7rem;
+                   
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                         }
+
+                }
+            }         
+           
+        }
+    }
+    main{
+        display: grid;
+        color: rgb(0, 0, 0);
+        background-color: rgb(151, 151, 151);
+        display: grid;
+        grid-column: 2/7;
+        .M{
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr;
+            .fargh{
+                background-color: aqua;
+            }
+            
+        }
+
+    }
+}

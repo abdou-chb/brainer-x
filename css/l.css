@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 16px;
+}
+body{
+    background-color: #FAF6ED;
+    color: #3B2A20;
+    
+}
+.title{
+    width: 500px;
+    font-size: 40px;
+    margin-left:550px ;
+    padding: 20px;
+}
+.wow{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.wow img{
+    margin-left: 60px;
+    width: 500px;
+    border-radius: 20%;
+    height: 300px;
+}
+.Introduction h1{
+    margin: 20px 20px;
+
+}
+.Introduction p{
+    width: 700px;
+    line-height:40px;
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;  
+}
+.componenets h1{
+     margin: 20px 20px;
+}
+.componenets ul{
+      line-height:40px;
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px; 
+}
+hr{
+    width: 90%;
+    margin-left: 2rem;
+}

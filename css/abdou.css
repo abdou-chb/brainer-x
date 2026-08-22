@@ -1,0 +1,128 @@
+html,body{  
+    margin: 0;
+    padding: 0;
+}
+section.pizza{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 2500px;
+}
+.componenets{
+    padding-left: 40px;
+    width: 50%;
+    background-color: #B84A3A;
+    color:#FFF1DC;
+    
+}
+.componenets img{
+    width: 600px;
+    border-radius: 20%;
+}
+p.link {
+    color:#FFF1DC ;
+    text-decoration: none;
+    font-size: 20px;
+}
+a{
+    color:#B84A3A ;
+    text-decoration: none;
+    font-size: 20px;
+}
+.componenets h1{
+    margin-top: 15px;
+    padding-left: 488px;
+    font-size: 50px;
+}
+.componenets li{
+    padding-bottom: 20px;
+}
+.componenets hr{
+    
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 95%;
+}
+.f input{
+    background-color: #FFF1DC;
+    margin: 20px;
+    margin-left:px;
+    color:#B84A3A;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 25px;
+
+}
+.f textarea{ background-color: #FFF1DC;
+    margin: 20px;
+    margin-left:px;
+    color:#B84A3A;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 50px;
+}
+.b{
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 120px;
+    height: 30px;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+span{
+    margin-top: 10px;
+    padding: 10px;  
+    background-color: #FFF1DC;
+    color: #B84A3A;
+    border-radius: 25px;
+   
+}
+span:hover{
+    color:#ffffff ;
+    background-color: #000000;
+    
+}
+.steps{
+    padding-left: 0px;
+    color:#B84A3A;
+    background-color: #FFF1DC;
+    width: 50%;
+}
+.steps h1{
+    margin-top: 15px;
+    padding-left:8px;
+    font-size: 50px;
+}
+.steps li{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px ;
+    align-items: center;
+}
+.steps img{
+    margin-left: 70px;
+    width: 350px;
+    height: 300px;
+    border:solid ;
+}
+.steps hr{
+    color: #B84A3A;
+    width: 90%;
+}

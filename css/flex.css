@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ :root{
+    
+ }
+.bobo{
+    color:#FFFFFF;
+    background-color: #1E293B;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+    cursor: pointer;
+    list-style: none;
+    margin: 0.5rem 0;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    }
+    h1{
+        padding-left: 2rem;
+    }
+    button{
+        margin-right: 2rem;
+        padding: 0.5rem;
+        height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+}
+.Rbobo{
+    color: #334155;
+    background-color: #F8FAFC;
+    display: flex;
+    flex-direction: row;
+    .left{
+        color: #1E293B;
+        background-color: #E0F2FE;
+        width: 10%;
+        padding-left: 4rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 3rem;
+        li{
+            list-style: none;
+        }
+    }
+    .right{
+        width: 100%;
+       
+      
+        h1{
+            width: 100%;
+             display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem 0.5rem;
+        }
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
